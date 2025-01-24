@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+</head>
+<body>
+  <div id="nav-hero-container"></div>
+
+  <script>
+    fetch('./styles/components/nav&hero/nav&hero.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('nav-hero-container').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading nav&hero.html:', error));
+  </script>
+</body>
+</html>
