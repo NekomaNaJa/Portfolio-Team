@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact </title>
+</head>
+<body class="font-sans bg-gray-100">
+
+<main class="max-w-lg mx-auto p-6 bg-white shadow-md mt-8">
+    <h1 class="text-2xl font-semibold text-center mb-6">ติดต่อเรา</h1>
+    <form class="space-y-6">
+        <div>
+            <label for="name" class="block text-gray-700 font-semibold">ชื่อ-นามสกุล:</label>
+            <input type="text" id="name" name="name" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="กรอกชื่อ-นามสกุล">
+        </div>
+
+        <div>
+            <label for="email" class="block text-gray-700 font-semibold">อีเมล:</label>
+            <input type="email" id="email" name="email" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="กรอกอีเมล">
+        </div>
+
+        <div>
+            <label for="phone" class="block text-gray-700 font-semibold">เบอร์โทรศัพท์:</label>
+            <input type="tel" id="phone" name="phone" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="กรอกเบอร์โทรศัพท์">
+        </div>
+
+        <div>
+            <label for="message" class="block text-gray-700 font-semibold">ข้อความ:</label>
+            <textarea id="message" name="message" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" rows="4" placeholder="กรอกข้อความ"></textarea>
+        </div>
+
+        <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">ส่งข้อมูล</button>
+    </form>
+</main>
+
+</body>
+</html>
